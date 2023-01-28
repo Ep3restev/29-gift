@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+/* .hero{
+    background-image: url('./Assets/image1.jpg');
+    background-size: cover;
+} */
+
+h2{
+    text-align: center; 
+    margin: 20px;
+    font-size: 40px
+}
+
+p{
+    text-align: center; 
+    margin-bottom: 1rem;
+}
+
+.wrapper{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+section{
+    min-height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+}
+
+.container-29, .container-moments{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.gif-de{
+    width: 120px;
+}
+
+.movie-poster{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.whiteboard{
+    padding: 8px 8px;
+    width: 80%;
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
+
+
+iframe{
+    margin-top: 20px;
+}
+
+/*Animacion scroll*/
+.reveal{
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
